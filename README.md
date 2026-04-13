@@ -23,14 +23,12 @@
 
 Screenshot [https://github.com/Saurabh12-12/Taskify-desktop-app/blob/905f9cd4857384bb0fd1ba87cb467bb557e04b32/Taskify%20app.png]
 
-## **One-Click Setup**
-
+### 🎯 **One-Click Build**
 ```bash
-# Clone
-git clone https://github.com/yourusername/ai-todo-app.git
-cd ai-todo-app
+# Windows
+build.bat
 
-# Install & Run
-python setup.py      
-python ai_todo_app.py
+# macOS/Linux  
+chmod +x build.sh
+./build.sh
 
