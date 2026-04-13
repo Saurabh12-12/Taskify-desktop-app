@@ -1,6 +1,5 @@
 # 🤖 Taskify **Desktop App**
-An AI To-do List app
-**Beautiful cross-platform desktop app** with AI task intelligence!
+**A Beautiful AI Powered To-do List cross-platform desktop app** with AI task intelligence!
 
 ## ✨ **App Features**
 - **🎨 Modern Dark UI** - CustomTkinter (Native macOS/Windows look)
@@ -10,7 +9,7 @@ An AI To-do List app
 - **💾 Auto-save** - Persistent across sessions
 - **🎯 Double-click Complete** - Fast task completion
 
-## 🚀 **One-Click Setup**
+## **One-Click Setup**
 
 ```bash
 # Clone
