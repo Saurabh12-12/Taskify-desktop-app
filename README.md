@@ -8,8 +8,8 @@
 - **📊 Live Insights** - Completion stats & focus tracking
 - **💾 Auto-save** - Persistent across sessions
 - **🎯 Double-click Complete** - Fast task completion
-- 
-- **Tech Stacks**
+
+**Tech Stacks**
 -Frontend: CustomTkinter (Native dark mode)
 -AI: NLTK + VADER Sentiment
 -Data: JSON persistence
