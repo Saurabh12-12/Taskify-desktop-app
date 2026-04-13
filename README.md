@@ -1,21 +1,22 @@
-# Taskify 🤖 
+# 🤖 Taskify **Desktop App**
 
-**Smart productivity app with AI task parsing, prioritization & insights!**
+**Beautiful cross-platform desktop app** with AI task intelligence!
 
-**Key Features**
+## ✨ **App Features**
+- **🎨 Modern Dark UI** - CustomTkinter (Native macOS/Windows look)
+- **🤖 AI Task Parsing** - Natural language → smart tasks
+- **⚡ Priority Scoring** - Auto-sorts by urgency + sentiment
+- **📊 Live Insights** - Completion stats & focus tracking
+- **💾 Auto-save** - Persistent across sessions
+- **🎯 Double-click Complete** - Fast task completion
 
-- AI Natural Language Parsing - "Finish report Friday" → auto-dates
-- Smart Priority Scoring - Urgency + Importance + Sentiment
-- Sentiment Analysis*- Detects stress in your tasks  
-- Productivity Insights - Completion trends & focus areas
-- Color-coded Interface - Visual priority ranking
-- Persistent Storage - Tasks saved forever
-
-**Quick Start**
+## 🚀 **One-Click Setup**
 
 ```bash
-git clone https://github.com/yourusername/Taskify.git
-cd Taskify
-pip install -r requirements.txt
-python setup_nltk.py          # First time only
-python Taskify.py
+# Clone
+git clone https://github.com/yourusername/ai-todo-app.git
+cd ai-todo-app
+
+# Install & Run
+python setup.py      # Option 3 for full setup
+python ai_todo_app.py
