@@ -30,6 +30,6 @@ git clone https://github.com/yourusername/ai-todo-app.git
 cd ai-todo-app
 
 # Install & Run
-python setup.py      # Option 3 for full setup
+python setup.py      
 python ai_todo_app.py
 
