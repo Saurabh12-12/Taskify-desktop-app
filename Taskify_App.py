@@ -1,3 +1,8 @@
+"""
+🤖 Taskify   (Complete Original Code) python
+Smart task manager app with AI insights
+"""
+
 import customtkinter as ctk
 import tkinter as tk
 from tkinter import messagebox, ttk
@@ -312,6 +317,7 @@ Top Focus: {max(set(t.category for t in self.tasks), key=lambda c: sum(1 for t i
 if __name__ == "__main__":
     try:
         # Download NLTK data if needed
+        
         nltk.data.find('sentiment/vader_lexicon.zip')
     except LookupError:
         print("📥 Downloading NLTK data...")
