@@ -2,7 +2,7 @@
 echo 🤖 Taskify EXE Builder
 echo ================================
 
-REM Check Python
+REM 
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo ❌ Python not found!
@@ -11,16 +11,16 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-REM Install PyInstaller if missing
+REM 
 echo 📦 Checking PyInstaller...
 python -m pip install pyinstaller --quiet --upgrade
 
-REM Clean previous builds
+REM 
 if exist dist rmdir /s /q dist
 if exist build rmdir /s /q build
 if exist Taskify_App.spec del Taskify_App.spec
 
-REM Build EXE
+REM 
 echo 🔨 Building Taskify.exe...
 python -m PyInstaller --onefile --windowed --noconsole ^
     --name "Taskify" ^
