@@ -33,7 +33,6 @@ if %errorlevel% equ 0 (
     echo 📱 Double-click dist\Taskify.exe to test
 ) else (
     echo ❌ Build failed!
-    echo 💡 Run: python build_exe.py
 )
 
 pause
